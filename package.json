@@ -1,7 +1,7 @@
 {
     "name": "dav-proxy",
     "description": "WebDav Proxy",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "homepage": "https://github.com/catalin-/node-dav-proxy",
     "author": {
         "name": "Catalin Manolescu",
@@ -31,7 +31,7 @@
     "scripts": {
         "start" : "node start-server.js"
     },
-    "main": "./lib/Proxy.js",
+    "main": "./lib/server.js",
     "licenses": [
         {
             "type": "LGPL",
@@ -40,12 +40,12 @@
     ],
     "dependencies": {
         "node-uuid": ">=1.3.3",
-        "journey": ">=0.4.0-pre-3",
+        "router": ">=0.6.2",
         "formidable": ">=1.0.11",
         "xml2js": ">=0.2.0"
     },
     "optionalDependencies": {},
     "readme": "WebDav proxy for node js",
-    "_id": "dav-proxy@0.0.2",
+    "_id": "dav-proxy@1.0.0",
     "_from": "dav-proxy"
 }
