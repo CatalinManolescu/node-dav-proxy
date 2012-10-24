@@ -1,7 +1,7 @@
 {
     "name": "dav-proxy",
     "description": "WebDav Proxy",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "homepage": "https://github.com/catalin-/node-dav-proxy",
     "author": {
         "name": "Catalin Manolescu",
@@ -46,6 +46,6 @@
     },
     "optionalDependencies": {},
     "readme": "WebDav proxy for node js",
-    "_id": "dav-proxy@1.0.6",
+    "_id": "dav-proxy@1.0.7",
     "_from": "dav-proxy"
 }
